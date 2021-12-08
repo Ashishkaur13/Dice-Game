@@ -2,7 +2,7 @@ alert("HI, Welcome to the dice game! Decide you are player 1 or 2 and let the ga
 
 var RandomNumber1 = Math.floor(Math.random() * 6 ) + 1 ;
 
-var DiceNumber = "Dice" + RandomNumber1 + ".png"; //dice1.png - dice6.png
+var DiceNumber = "dice" + RandomNumber1 + ".png"; //dice1.png - dice6.png
 
 var ImageSource = "images/" + DiceNumber;
 
